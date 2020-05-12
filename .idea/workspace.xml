@@ -25,25 +25,9 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ab04ca-1681-4688-a8fe-ac525ad9324a" name="Default Changelist" comment="Setup and Development Complete&#10;&#10;Added version.rb.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/subscription_impl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/subscription_impl.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/subscription_impl/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subscription_impl.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/subscription_impl_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+    <list default="true" id="e4ab04ca-1681-4688-a8fe-ac525ad9324a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,8 +166,16 @@
       <workItem from="1589226429071" duration="109000" />
       <workItem from="1589226912374" duration="86000" />
       <workItem from="1589293154972" duration="738000" />
-      <workItem from="1589298503001" duration="5027000" />
+      <workItem from="1589298503001" duration="5498000" />
     </task>
+    <task id="LOCAL-00001" summary="Setup and Development Complete&#10;&#10;Added version.rb. Added 'Subscription.subscribable()', 'Subscription.publishable()', 'Subscription.s_instance(subscriber = nil)', 'Subscription.publisher(published = nil)', 'Subscription.update(subject = nil)', 'Subscription.kind_subscription(publisher = nil)', 'Subscription.new()', and constants. Added test coverage. Added README.md. Added Gem Specification.">
+      <created>1589311100824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589311100824</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Subscription Subsystem:{ No Subsystem } Component: Implementation Sprints: 1 State: {Prepare Deployment} " />
@@ -194,15 +186,31 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setup and Development Complete&#10;&#10;Added version.rb. Added 'Subscription.subscribable()', 'Subscription.publishable()', 'Subscription.s_instance(subscriber = nil)', 'Subscription.publisher(published = nil)', 'Subscription.update(subject = nil)', 'Subscription.kind_subscription(publisher = nil)', 'Subscription.new()', and constants. Added test coverage. Added README.md. Added Gem Specification." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup and Development Complete&#10;&#10;Added version.rb. Added 'Subscription.subscribable()', 'Subscription.publishable()', 'Subscription.s_instance(subscriber = nil)', 'Subscription.publisher(published = nil)', 'Subscription.update(subject = nil)', 'Subscription.kind_subscription(publisher = nil)', 'Subscription.new()', and constants. Added test coverage. Added README.md. Added Gem Specification." />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="451" y="175" key="#Servers" timestamp="1588872668518">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="451" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588872668518" />
-    <state x="149" y="62" width="1482" height="922" key="CommitChangelistDialog2" timestamp="1589310254970">
+    <state x="149" y="62" width="1482" height="922" key="CommitChangelistDialog2" timestamp="1589311100399">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="149" y="62" width="1482" height="922" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589310254970" />
+    <state x="149" y="62" width="1482" height="922" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589311100399" />
     <state width="1545" height="269" key="GridCell.Tab.0.bottom" timestamp="1589310322847">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -259,10 +267,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="500" y="233" width="700" height="530" key="recent.locations.popup/0.23.1680.975@0.23.1680.975" timestamp="1588872876321" />
-    <state x="516" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589310844180">
+    <state x="516" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589311151531">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="516" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589310844180" />
+    <state x="516" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589311151531" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/subscription_impl@test_cu_x1.rcov" NAME="test_cu_x1 Coverage Results" MODIFIED="1589301765984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subscription_impl" />
