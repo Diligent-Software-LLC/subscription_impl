@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.0.0, 2020-05-13
+
+### Added
+
+### Edited
+
+- Dependencies. Deleted node_subscription_impl dependency.
+- Extracted integration tests.
+
+### Fixed
+
 ## v0.1.2, 2020-05-13
 
 ### Added

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    subscription_impl (0.1.2)
+    subscription_impl (1.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -85,6 +85,7 @@ GEM
       node_error (~> 3)
       node_int (~> 2)
     node_int (2.3.0)
+    node_subscription_impl (0.1.0)
     rake (13.0.1)
     simplecov (0.18.5)
       docile (~> 1.1)
@@ -102,6 +103,7 @@ DEPENDENCIES
   minitest (~> 5.0)
   node (~> 4)
   node_diagram (~> 0)
+  node_subscription_impl (~> 0)
   rake (~> 13.0)
   simplecov (~> 0)
   subscription_impl!

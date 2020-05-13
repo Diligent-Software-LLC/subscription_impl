@@ -110,43 +110,13 @@ class SubscriptionTest < Minitest::Test
     refute_operator(Subscription, 's_instance', TEST_SYMBOL)
   end
 
-  # Subscription.update(subject = nil).
-
-  # test_cu_x1().
-  # @description
-  #   Integration test. 'subject' is a Node.
-  def test_cu_x1()
-
-    n1                = Node.new(NILCLASS_I, TEST_SYMBOL, NILCLASS_I)
-    df_singleton      = DiagramFactory.instance()
-    diagram           = df_singleton.diagram(n1)
-    node_subscription = NodeSubscription.instance()
-    node_subscription.add_publisher(n1)
-    node_subscription.add_subscriber(n1, diagram)
-    n2 = Node.new(NILCLASS_I, TEST_FLOAT, NILCLASS_I)
-    n1.attach_back(n2)
-    Subscription.update(n1)
-    post_diagram = df_singleton.diagram(n1)
-    refute_same(diagram, post_diagram)
-    n1.detach_back()
-    assert_same(diagram, df_singleton.diagram(n1))
-
-  end
-
-  # test_update_x2().
-  # @description
-  #   Any object excluding subscribable instance types.
-  def test_update_x2()
-    assert_raises(ArgumentError) { Subscription.update() }
-  end
-
   # Subscription.kind_subscription(subject = nil).
 
   # test_ks_x1().
   # @description
   #   A call using the default parameter.
   def test_ks_x1()
-    assert_raises(NameError) { Subscription.kind_observer() }
+    assert_raises(NameError) { Subscription.kind_subscription() }
   end
 
   # Subscription.new().
