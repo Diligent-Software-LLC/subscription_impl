@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.1.2, 2020-05-13
+
+### Added
+
+### Edited
+
+### Fixed
+
+- Circular developmental dependency. Commented node_subscription_impl
+  'require' statement. Commented Gem Specification dependency.
+
 ## v0.1.1, 2020-05-13
 
 ### Added
