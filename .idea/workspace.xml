@@ -27,6 +27,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e4ab04ca-1681-4688-a8fe-ac525ad9324a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/subscription_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/subscription_impl.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/subscription_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/subscription_impl/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subscription_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/subscription_impl.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +71,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
     <property name="ytplugin.issueListCompactView" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artifacts" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mkdir artifacts" />
+    </option>
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.SubscriptionTest">
     <configuration name="IRB console: subscription_impl" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
@@ -171,7 +185,8 @@
       <workItem from="1589226429071" duration="109000" />
       <workItem from="1589226912374" duration="86000" />
       <workItem from="1589293154972" duration="738000" />
-      <workItem from="1589298503001" duration="6506000" />
+      <workItem from="1589298503001" duration="6711000" />
+      <workItem from="1589372841798" duration="1821000" />
     </task>
     <task id="LOCAL-00001" summary="Setup and Development Complete&#10;&#10;Added version.rb. Added 'Subscription.subscribable()', 'Subscription.publishable()', 'Subscription.s_instance(subscriber = nil)', 'Subscription.publisher(published = nil)', 'Subscription.update(subject = nil)', 'Subscription.kind_subscription(publisher = nil)', 'Subscription.new()', and constants. Added test coverage. Added README.md. Added Gem Specification.">
       <created>1589311100824</created>
@@ -187,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589311337588</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Prepare Deployment&#10;&#10;Fixed missing 'require' statement.">
+      <created>1589313826330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589313826330</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Subscription Subsystem:{ No Subsystem } Component: Implementation Sprints: 1 State: {Prepare Deployment} " />
@@ -203,7 +225,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -212,7 +236,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup and Development Complete&#10;&#10;Added version.rb. Added 'Subscription.subscribable()', 'Subscription.publishable()', 'Subscription.s_instance(subscriber = nil)', 'Subscription.publisher(published = nil)', 'Subscription.update(subject = nil)', 'Subscription.kind_subscription(publisher = nil)', 'Subscription.new()', and constants. Added test coverage. Added README.md. Added Gem Specification." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Added Changelog.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Added Changelog.md." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Fixed missing 'require' statement." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Fixed missing 'require' statement." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -220,26 +245,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="451" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588872668518" />
-    <state x="149" y="62" width="1482" height="922" key="CommitChangelistDialog2" timestamp="1589311337347">
+    <state x="149" y="62" width="1482" height="922" key="CommitChangelistDialog2" timestamp="1589313826028">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="149" y="62" width="1482" height="922" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589311337347" />
-    <state width="1545" height="269" key="GridCell.Tab.0.bottom" timestamp="1589313793121">
+    <state x="149" y="62" width="1482" height="922" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589313826028" />
+    <state width="1545" height="269" key="GridCell.Tab.0.bottom" timestamp="1589313848874">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1589313793121" />
-    <state width="1545" height="269" key="GridCell.Tab.0.center" timestamp="1589313793120">
+    <state width="1545" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1589313848874" />
+    <state width="1545" height="269" key="GridCell.Tab.0.center" timestamp="1589313848873">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1589313793120" />
-    <state width="1545" height="269" key="GridCell.Tab.0.left" timestamp="1589313793120">
+    <state width="1545" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1589313848873" />
+    <state width="1545" height="269" key="GridCell.Tab.0.left" timestamp="1589313848872">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1589313793120" />
-    <state width="1545" height="269" key="GridCell.Tab.0.right" timestamp="1589313793121">
+    <state width="1545" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1589313848872" />
+    <state width="1545" height="269" key="GridCell.Tab.0.right" timestamp="1589313848873">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1589313793121" />
+    <state width="1545" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1589313848873" />
     <state width="1545" height="335" key="GridCell.Tab.1.bottom" timestamp="1589302023603">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -272,10 +297,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state width="1545" height="335" key="GridCell.Tab.2.right/0.23.1680.975@0.23.1680.975" timestamp="1589302023604" />
-    <state x="486" y="250" key="Vcs.Push.Dialog.v2" timestamp="1589313628160">
+    <state x="486" y="250" key="Vcs.Push.Dialog.v2" timestamp="1589313830446">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="486" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1589313628160" />
+    <state x="486" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1589313830446" />
     <state x="443" y="235" width="816" height="550" key="find.popup" timestamp="1588872995281">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
