@@ -7,5 +7,5 @@ require 'subscription_int'
 # @class_description
 #   A Subscription library implementation.
 class Subscription < SubscriptionInt
-  VERSION = '0.1.1'.freeze()
+  VERSION = '0.1.2'.freeze()
 end

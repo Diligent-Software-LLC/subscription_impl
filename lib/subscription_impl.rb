@@ -4,7 +4,7 @@
 require_relative "subscription_impl/version"
 require 'node'
 require 'node_diagram'
-# require 'node_subscription_impl'
+require 'node_subscription_impl'
 
 # Subscription.
 # @class_description
